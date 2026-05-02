@@ -1,0 +1,21 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.vercte.skylogged.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "IngredientMixin",
+    "ItemRequirementMixin",
+    "MouseTweaksMixin",
+    "StackRequirementMixin"
+  ],
+  "client": [
+    "client.ItemEmiStackMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
