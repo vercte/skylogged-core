@@ -4,9 +4,7 @@
   "package": "net.vercte.skylogged.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
-    "ItemRequirementMixin",
-    "MouseTweaksMixin",
-    "StackRequirementMixin"
+    "CopycatSlabMixin"
   ],
   "client": [
   ],
